@@ -12,7 +12,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "tb_game")
-public class Games {
+public class Game {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -32,11 +32,11 @@ public class Games {
 	@Column(columnDefinition = "TEXT")
 	private String long_Description;
 	
-	public Games() {
+	public Game() {
 		
 	}
 
-	public Games(Long id, String title, Integer year, String genre, String platforms, Double score, String imgUrl,
+	public Game(Long id, String title, Integer year, String genre, String platforms, Double score, String imgUrl,
 			String shortDescription, String long_Description) {
 		this.id = id;
 		this.title = title;
@@ -136,7 +136,7 @@ public class Games {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Games other = (Games) obj;
+		Game other = (Game) obj;
 		return Objects.equals(id, other.id);
 	}
 	

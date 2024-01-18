@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.dslist.DTO.GameMinDTO;
+import com.example.dslist.dto.GameMinDTO;
 import com.example.dslist.services.GameService;
 
 @RestController

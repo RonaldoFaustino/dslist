@@ -1,4 +1,4 @@
-package com.example.dslist.DTO;
+package com.example.dslist.dto;
 
 import com.example.dslist.entities.Game;
 

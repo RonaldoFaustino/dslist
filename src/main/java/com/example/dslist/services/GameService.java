@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.dslist.DTO.GameMinDTO;
+import com.example.dslist.dto.GameMinDTO;
 import com.example.dslist.entities.Game;
 import com.example.dslist.repositories.GameRepository;
 
